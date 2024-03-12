@@ -1,27 +1,43 @@
+/*  ########### CÓDIGO ESCRITO POR CAMILA CID ###########
+    ###### PRUEBA MÓDULO 2 DEL BOOTCAMP FRONT-END #######
+    #################### 12-03-2024 ##################### 
+*/
+
+/*Seteamos a 0 las configuraciones por defecto de cada navegador*/
 * {
     margin: 0;
     padding: 0;
     border: 0;
 }
 
+/*Comportamiendo del smooth scroll*/
+html {
+    scroll-behavior: smooth;
+}
+
+/*Color de la barra de navegación*/
 nav {
     background-color: #4eb1b7;
 }
 
+/*Texto con el nombre del logo en la barra de navegación*/
 .text-logo {
     font-family: "Kalam", cursive;
     font-size: 23px;
 }
 
+/*Ajustes del tamaño de imagen en el carrusel*/
 .img-header {
     width: 100vw;
     height: 100vh;
 }
 
+/*Asignamos un color de fondo a todo el contenido de la página*/
 body {
     background-color: #2e2e2d;
 }
 
+/*Título principal: ¿Quiénes Somos?*/
 h1 {
     color: #4eb1b7;
     font-family: "Nunito Sans", sans-serif;
@@ -29,17 +45,20 @@ h1 {
     font-size: 40px;
 }
 
+/* Ajustes de los iconos de font-awesome*/
 i {
     font-size: 40px;
     color: #4eb1b7;
 }
 
+/*Ajustes del estilo de los parrafos en la sección quienes somos*/
 .texto-qs {
     font-family: "Nunito Sans", sans-serif;
     font-size: 16px;
     color: azure;
 }
 
+/*Ajustes de estilo para los titulos de las secciones destacados y contacto*/
 h2, h4 {
     color: #4eb1b7;
     font-family: "Nunito Sans", sans-serif;
@@ -47,14 +66,17 @@ h2, h4 {
     font-size: 35px;
 }
 
+/*Ajuste del alto de las imagenes en card (para evitar que hayan imagenes de diferente tamaño que arruinen el diseño)*/
 .img-card {
     height: 200px;
 }
 
+/*Color del fondo en las card de la seccion destacados*/
 .card-body {
     background-color: #4eb1b7;
 }
 
+/*Titulo y contenido de las card*/
 h3 {
     color: lightgray;
     font-size: 20px;
@@ -64,6 +86,7 @@ h3 {
     color: lightgray;
 }
 
+/*Pie de página y sus estilos de fondo y fuente*/
 footer {
     background-color: #4eb1b7;
     font-family: "Kalam", cursive;
@@ -71,7 +94,13 @@ footer {
     font-size: 25px;
 }
 
+/*iconos del pie de página*/
 .img-footer {
     color: lightgray;
     font-size: 30px;
+}
+
+/*hidden por defecto (js)*/
+.hidden {
+    display: none;
 }
