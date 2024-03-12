@@ -93,10 +93,10 @@
     </header> <!-- Cierre del header -->
 
     <main> <!-- Contenido principal de la página -->
-        <section class="container text-center mt-5 d-none d-sm-block" id="quienes-somos"> <!-- Sección quienes somos, incluye el titulo principal, iconos de fontawesome y parrafos. Esta sección desaparece en dispositivos pequeños -->
+        <section class="container text-center mt-5 d-none d-sm-block quienes-somos" id="quienes-somos"> <!-- Sección quienes somos, incluye el titulo principal, iconos de fontawesome y parrafos. Esta sección desaparece en dispositivos pequeños -->
             <h1>¿QUIÉNES SOMOS?</h1>
             <div class="row mx-4 my-5"> <!-- Dividiremos el contenido de la sección en 3 columnas iguales, dentro de un contenedor con margen fijo -->
-                <div class="col-12 col-md-4">
+                <div class="col-12 col-md-4 col-qs">
                     <i class="fa-solid fa-plane icono-qs"></i>
                     <p class="texto-qs my-3 mx-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, illum id
                         iusto,
@@ -106,7 +106,7 @@
                         nesciunt odit? Repudiandae, id ipsam eveniet, quae molestias sequi odio facere ratione rem
                         mollitia quisquam, dolorum consequatur enim.</p>
                 </div>
-                <div class="col-12 col-md-4">
+                <div class="col-12 col-md-4 col-qs">
                     <i class="fa-solid fa-hotel icono-qs"></i>
                     <p class="texto-qs my-3 mx-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
                         illum
@@ -116,7 +116,7 @@
                         dolor molestias ut inventore illum tempora dolorem ab itaque rem repudiandae possimus?
                         Accusantium eum deserunt numquam accusamus in.</p>
                 </div>
-                <div class="col-12 col-md-4 pb-5">
+                <div class="col-12 col-md-4 pb-5 col-qs">
                     <i class="fa-solid fa-route icono-qs"></i>
                     <p class="texto-qs my-3 mx-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut hic,
                         facilis non
@@ -130,11 +130,11 @@
             </div>
         </section>
 
-        <section class="container my-5" id="destacados">
+        <section class="container my-5 destacados-section" id="destacados">
             <h2 class="text-center">DESTACADOS</h2> <!-- Sección Destacados. Incluye un titulo y cuatro card con efectos en js -->
             <div class="row mt-5 mx-4">
-                <div class="col-12 col-md-3 pt-3">
-                    <div class="card" style="width: 18rem;">
+                <div class="col-12 col-lg-3 pt-3">
+                    <div class="card">
                         <img src="./assets/img/card1.jpg" class="card-img-top img-card" alt="...">
                         <div class="card-body">
                             <h3 class="card-title">Primer destino</h3>
@@ -143,8 +143,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-3 pt-3">
-                    <div class="card" style="width: 18rem;">
+                <div class="col-12 col-lg-3 pt-3">
+                    <div class="card">
                         <img src="./assets/img/card2.jpg" class="card-img-top img-card" alt="...">
                         <div class="card-body">
                             <h3 class="card-title">Segundo destino</h3>
@@ -153,8 +153,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-3 pt-3">
-                    <div class="card" style="width: 18rem;">
+                <div class="col-12 col-lg-3 pt-3">
+                    <div class="card">
                         <img src="./assets/img/card3.jpg" class="card-img-top img-card" alt="...">
                         <div class="card-body">
                             <h3 class="card-title">Tercer destino</h3>
@@ -163,8 +163,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-3 pb-5 mb-5 pt-3">
-                    <div class="card" style="width: 18rem;">
+                <div class="col-12 col-lg-3 pb-5 mb-5 pt-3">
+                    <div class="card">
                         <img src="./assets/img/card4.jpg" class="card-img-top img-card" alt="...">
                         <div class="card-body">
                             <h3 class="card-title">Cuarto destino</h3>
@@ -177,7 +177,7 @@
             </div>
         </section>
 
-        <section class="container my-5"> <!-- Formulario de contacto con tres campos de entrada. Se incluyen alertas para el llenado de campos y mensaje enviado correctamente -->
+        <section class="container my-5 contacto-section"> <!-- Formulario de contacto con tres campos de entrada. Se incluyen alertas para el llenado de campos y mensaje enviado correctamente -->
             <h4 class="text-center">CONTACTO</h4>
             <form class="pt-3 mx-4" id="contacto">
                 <div class="mb-3 px-3">
@@ -210,16 +210,16 @@
                     Viajes Chile
                 </div>
                 <div class="col-12 col-md-4 d-block ms-auto">
-                    <a style="color: #4eb1b7" href="https://github.com/" target="_blank">
+                    <a href="https://github.com/" target="_blank">
                         <i class="fa-brands fa-square-github img-footer"></i>
                     </a>
-                    <a style="color: #4eb1b7" href="https://www.linkedin.com/" target="_blank">
+                    <a href="https://www.linkedin.com/" target="_blank">
                         <i class="fa-brands fa-linkedin img-footer"></i>
                     </a>
-                    <a style="color: #4eb1b7" href="https://twitter.com/?lang=es" target="_blank">
+                    <a href="https://twitter.com/?lang=es" target="_blank">
                         <i class="fa-brands fa-square-twitter img-footer"></i>
                     </a>
-                    <a style="color: #4eb1b7" href="https://www.facebook.com/" target="_blank">
+                    <a href="https://www.facebook.com/" target="_blank">
                         <i class="fa-brands fa-square-facebook img-footer"></i>
                     </a>
                 </div>

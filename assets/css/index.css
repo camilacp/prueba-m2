@@ -37,6 +37,15 @@ body {
     background-color: #2e2e2d;
 }
 
+/*Padding para forzar el contenido al hacer click en los botones del navbar*/
+.quienes-somos, .destacados-section, .contacto-section {
+    padding-top: 15vh;
+}
+
+.col-qs {
+    padding-bottom: 15vh;
+}
+
 /*Título principal: ¿Quiénes Somos?*/
 h1 {
     color: #4eb1b7;
@@ -98,6 +107,11 @@ footer {
 .img-footer {
     color: lightgray;
     font-size: 30px;
+}
+
+/*Quitamos el subrayado de los links*/
+a {
+    text-decoration: none;
 }
 
 /*hidden por defecto (js)*/
