@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+nav {
+    background-color: #4eb1b7;
+}
+
+.text-logo {
+    font-family: "Kalam", cursive;
+    font-size: 23px;
+}
+
+.img-header {
+    width: 100vw;
+    height: 100vh;
+}
+
+body {
+    background-color: #2e2e2d;
+}
+
+h1 {
+    color: #4eb1b7;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+i {
+    font-size: 40px;
+    color: #4eb1b7;
+}
+
+.texto-qs {
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 16px;
+    color: azure;
+}
+
+h2, h4 {
+    color: #4eb1b7;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.img-card {
+    height: 200px;
+}
+
+.card-body {
+    background-color: #4eb1b7;
+}
+
+h3 {
+    color: lightgray;
+    font-size: 20px;
+}
+
+.card-text{
+    color: lightgray;
+}
+
+footer {
+    background-color: #4eb1b7;
+    font-family: "Kalam", cursive;
+    color: lightgray;
+    font-size: 25px;
+}
+
+.img-footer {
+    color: lightgray;
+    font-size: 30px;
+}
